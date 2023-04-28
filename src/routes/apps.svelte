@@ -22,6 +22,10 @@
         const json = await res.json();
         return json;
     }
+    function setTheme() {
+    const theme = localStorage.getItem('amethyst||theme');
+    document.body.setAttribute('data-theme', theme || 'default');
+}
 </script>
 <Head localTitle="Amethyst | Apps" />
 
