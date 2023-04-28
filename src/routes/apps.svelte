@@ -1,4 +1,10 @@
 <script>
+    import { onMount } from 'svelte';
+    
+    onMount(() => {
+        setTheme();
+    });
+    
     import { createEventDispatcher } from "svelte";
 
     import Frame from "../components/frame.svelte";
