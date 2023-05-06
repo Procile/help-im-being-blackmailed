@@ -1,5 +1,5 @@
 # NOTICE:
-
+.
 You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. [Read more here](https://amethystnetwork-dev.github.io/docs/static-hosts).
 
 <!--
